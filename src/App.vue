@@ -131,7 +131,7 @@
 
                 <p>Tive o prazer de desenvolver o site da Ordem dos Advogados do Brasil Seccional Espírito Santo - OAB-ES (<a href="http://oabes.org.br" target="_blank" rel="noopener">http://oabes.org.br</a>) com sede em Vitória - ES.</p>
 
-                <p>Participei no desenvolvimento da plataforma de E-commerce da empresa e com ela várias lojas virtuais. Destaco o Prático Supermercado Online (<a href="https://praticosupermercado.com.br" target="_blank" rel="noopener">https://praticosupermercado.com.br</a>) que foi o primeiro Supermercado 100% Online de Cachoeiro de Itapemirim - ES.</p>
+                <p>Participei no desenvolvimento da plataforma de e-commerce da empresa e com ela várias lojas virtuais. Destaco o Prático Supermercado Online (<a href="https://praticosupermercado.com.br" target="_blank" rel="noopener">https://praticosupermercado.com.br</a>) que foi o primeiro supermercado 100% online de Cachoeiro de Itapemirim - ES.</p>
 
                 <p>Também criei o design e desenvolvi muitos sites de imobiliárias. Destaco o site da Renê Empreendimentos Imobiliários (<a href="https://reneweb.com.br" target="_blank" rel="noopener">http://reneweb.com.br</a>) que é uma das maiores imobiliárias da região sul do ES.</p>
 
