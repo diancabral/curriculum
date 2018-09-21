@@ -1,7 +1,7 @@
 Bio
 ---
 
-Opá! Tudo joia? Meu nome é Dian Carlos, tenho {{ idade }} e moro em Vila Velha - ES no bairro Coqueiral de Itaparica. Sou um Full Stack Web Developer com mais de {{ experiencia }} de experiência profissional.
+Opá! Tudo joia? Meu nome é Dian Carlos, tenho 24 anos e moro em Vila Velha - ES no bairro Coqueiral de Itaparica. Sou um Full Stack Web Developer com mais de 8 anos de experiência profissional.
 
 No meu trabalho procuro sempre usar as melhores tecnologias de desenvolvimento disponíveis, para criar produtos de qualidade e com alto desempenho. Além disso, prezo muito pela beleza dos produtos, tendo cuidado a um nível milimétrico. Gosto de criar coisas belas, porém objetivas, que enchem os olhos de quem vê. Tudo isso somado faz com que o usuário final tenha uma ótima experiência e que o produto obtenha um grande destaque entre outros.
 
