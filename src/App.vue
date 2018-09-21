@@ -9,7 +9,7 @@
                 fill: '#9c27b0',
                 position: 'absolute',
                 top: 0,
-                right: scrollBarWidth + 'px',
+                right: 0,
                 zIndex: 100
 
             }" aria-hidden="true">
@@ -87,103 +87,17 @@
 
                 </div>
 
-                <h2>Bio</h2>
+                <vue-markdown
 
-                <p>Opá! Tudo joia? Meu nome é Dian Carlos, tenho {{ idade }} e moro em Vila Velha - ES no bairro Coqueiral de Itaparica. Sou um Full Stack Web Developer com mais de {{ experiencia }} de experiência profissional.</p>
+                    :source="markdown"
+                    :anchorAttributes="{
 
-                <p>No meu trabalho procuro sempre usar as melhores tecnologias de desenvolvimento disponíveis, para criar produtos de qualidade e com alto desempenho. Além disso, prezo muito pela beleza dos produtos, tendo cuidado a um nível milimétrico. Gosto de criar coisas belas, porém objetivas, que enchem os olhos de quem vê. Tudo isso somado faz com que o usuário final tenha uma ótima experiência e que o produto obtenha um grande destaque entre outros.</p>
+                        target: '_blank',
+                        rel: 'noopener'
 
-                <p>Fico muito bem a vontade trabalhando em equipe e sempre estou me atualizando com novas técnicas, ferramentas e tecnologias que vão surgindo no mundo do desenvolvimento. Partilhar conhecimento com todos é uma coisa que faço com prazer.</p>
+                    }"
 
-                <br>
-
-                <h2>Skills</h2>
-
-                <p>Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços online e frameworks:</p>
-
-                <ul>
-
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>Sass</li>
-                    <li>Less</li>
-                    <li>Bootstrap 4 (Grid e Display Property)</li>
-                    <li>JavaScript (ES6)</li>
-                    <li>Vue.js (vuex, vue-resource, vue-router)</li>
-                    <li>PHP7</li>
-                    <li>Phalcon PHP</li>
-                    <li>JSON Web Token (JWT)</li>
-                    <li>NodeJS</li>
-                    <li>MySQL</li>
-                    <li>MongoDB</li>
-                    <li>Express</li>
-                    <li>Socket.io</li>
-                    <li>NPM</li>
-                    <li>Yarn</li>
-                    <li>Grunt</li>
-                    <li>webpack</li>
-                    <li>BrowserSync</li>
-                    <li>Modernizr</li>
-                    <li>Composer PHP</li>
-                    <li>Git (GitHub e BitBucket)</li>
-                    <li>Amazon Web Services (S3, CloudFront e SNS)</li>
-                    <li>Google Fonts</li>
-                    <li>Google Analytics</li>
-                    <li>Atom</li>
-                    <li>XAMPP</li>
-                    <li>Adobe Photoshop</li>
-                    <li>Adobe Illustrator</li>
-
-                </ul>
-
-                <br>
-
-                <h2>Experiência Profissional</h2>
-
-                <p>
-
-                    <b>2012 - 2018</b><br>
-                    <b>Arco Websites & E-commerce</b><br>
-                    Cachoeiro de Itapemirim - ES<br>
-                    Cargo: Desenvolvedor Sênior
-
-                </p>
-
-                <br>
-
-                <p>Aqui fui responsável pelo desenvolvimento de sites para várias grandes empresas, tanto individualmente como em equipe. Também obtive grande experiência em atendimento ao cliente, suporte técnico e design.<p>
-
-                <p>Tive o prazer de desenvolver o site da Ordem dos Advogados do Brasil Seccional Espírito Santo - OAB-ES (<a href="http://oabes.org.br" target="_blank" rel="noopener">http://oabes.org.br</a>) com sede em Vitória - ES.</p>
-
-                <p>Participei no desenvolvimento da plataforma de e-commerce da empresa e com ela várias lojas virtuais. Destaco o Prático Supermercado Online (<a href="https://praticosupermercado.com.br" target="_blank" rel="noopener">https://praticosupermercado.com.br</a>) que foi o primeiro supermercado 100% online de Cachoeiro de Itapemirim - ES.</p>
-
-                <p>Também criei o design e desenvolvi muitos sites de imobiliárias. Destaco o site da Renê Empreendimentos Imobiliários (<a href="https://reneweb.com.br" target="_blank" rel="noopener">http://reneweb.com.br</a>) que é uma das maiores imobiliárias da região sul do ES.</p>
-
-                <br>
-
-                <p>
-
-                    <b>2010</b><br>
-                    <b>Q.I. Virtual</b><br>
-                    Mimoso do Sul - ES<br>
-                    Cargo: Auxiliar de Foto Estúdio
-
-                </p>
-
-                <p>Foi uma experiência rápida, porém aprendi muito sobre edição de imagens e fotografia. Foi aqui que iniciei profissionalmente a minha caminhada no mundo do desenvolvimento quando criei o site da empresa.</p>
-
-                <br>
-
-                <h2>Formação Acadêmica</h2>
-
-                <p>
-
-                    <b>Graduação em Análise e Desenvolvimento de Sistemas</b><br>
-                    Faculdade Multivix - Cachoeiro de Itapemirim - ES<br>
-                    Início em 2015 (Atualmente estou com a matrícula trancada)<br>
-                    3º Período completo
-
-                </p>
+                />
 
                 <div :class="$style.dev">Desenvolvido com <i class="material-icons" :class="$style.dev__icon">favorite</i> em Vila Velha - ES.</div>
 
@@ -197,8 +111,7 @@
 
 <script>
 
-    import moment from 'moment';
-    moment.locale('pt_BR');
+    import VueMarkdown from 'vue-markdown';
 
     /* */
 
@@ -208,32 +121,25 @@
 
             return {
 
-                gravatar : 'http://www.gravatar.com/avatar/941e983886a2603e9585326a98e3dffa.jpg?s=300',
-                scrollBarWidth: 0
+                markdown: 'Carregando...'
 
             }
+
+        },
+
+        components : {
+
+            VueMarkdown
 
         },
 
         mounted(){
 
-            this.scrollBarWidth = this.$refs.info.offsetWidth - this.$refs.info.clientWidth;
+            this.$http.get('README.md').then(response => {
 
-        },
+                this.markdown = response.data
 
-        computed: {
-
-            idade(){
-
-                return moment('1994-08-22').toNow(true);
-
-            },
-
-            experiencia(){
-
-                return moment('2010-12-30').toNow(true);
-
-            }
+            })
 
         },
 
