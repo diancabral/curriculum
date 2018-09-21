@@ -2,17 +2,41 @@
 
     <div :class="$style.app">
 
-        <div class="col-md-4">
+        <a href="https://github.com/diancabral/curriculum" target="_blank" rel="noopener" class="github-corner" title="Ver código fonte no GitHub" aria-label="View source on Github">
 
-            <div :class="$style.profile">
+            <svg width="80" height="80" viewBox="0 0 250 250" :style="{
 
-                <div class="row align-items-center justify-content-center" style="width: 100%;">
+                fill: '#9c27b0',
+                position: 'absolute',
+                top: 0,
+                right: scrollBarWidth + 'px',
+                zIndex: 100
+
+            }" aria-hidden="true">
+
+                <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+                <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="#ffffff" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+                <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="#ffffff" class="octo-body"></path>
+
+            </svg>
+
+        </a>
+
+        <div :class="$style.profile">
+
+            <div class="container">
+
+                <div class="row align-items-center justify-content-center">
 
                     <div class="col-4 col-md-12">
 
                         <div :class="$style.profile__picture__wrapper">
 
-                            <div :class="$style.profile__picture"></div>
+                            <div :class="$style.profile__picture">
+
+                                <img src="./assets/avatar.jpg" alt="Dian Carlos">
+
+                            </div>
 
                         </div>
 
@@ -45,9 +69,9 @@
 
         </div>
 
-        <div class="col-md-8">
+        <div :class="$style.info" ref="info">
 
-            <div :class="$style.info">
+            <div class="container">
 
                 <div class="row justify-content-center">
 
@@ -184,9 +208,16 @@
 
             return {
 
-                gravatar : 'http://www.gravatar.com/avatar/941e983886a2603e9585326a98e3dffa.jpg?s=300'
+                gravatar : 'http://www.gravatar.com/avatar/941e983886a2603e9585326a98e3dffa.jpg?s=300',
+                scrollBarWidth: 0
 
             }
+
+        },
+
+        mounted(){
+
+            this.scrollBarWidth = this.$refs.info.offsetWidth - this.$refs.info.clientWidth;
 
         },
 
@@ -224,6 +255,8 @@
 
     html {
 
+        width: 100%;
+
         font-size: 10px;
 
     }
@@ -231,13 +264,85 @@
     @import 'bootstrap/scss/bootstrap-reboot.scss';
     @import 'bootstrap/scss/bootstrap-grid.scss';
 
+    .github-corner:hover .octo-arm {
+
+        animation:octocat-wave 560ms ease-in-out
+
+    }
+
+    @keyframes octocat-wave{
+
+        0%, 100% {
+
+            transform:rotate(0);
+
+        }
+
+        20%, 60%{
+
+            transform:rotate(-25deg);
+
+        }
+
+        40%, 80%{
+
+            transform:rotate(10deg);
+
+        }
+
+    }
+
+    @media (max-width:500px){
+
+        .github-corner:hover .octo-arm {
+
+            animation: none
+
+        }
+
+        .github-corner .octo-arm {
+
+            animation: octocat-wave 560ms ease-in-out
+
+        }
+
+    }
+
+    .github-corner {
+
+        @media(max-width: 768px){
+
+            display: none;
+
+        }
+
+        @media print {
+
+            display: none;
+
+        }
+
+    }
+
+    @media print {
+
+        .container {
+
+            max-width: 100%;
+
+            padding: 0;
+
+        }
+
+    }
+
 </style>
 
 <style lang="scss" module>
 
     $theme-padding: 15px;
-    $break-point-md: 768px;
-    $break-point-sm: 576px;
+    $break-point-md: 768px - 1px;
+    $break-point-sm: 576px - 1px;
 
     /* */
 
@@ -260,11 +365,14 @@
         float: left;
 
         width: 100%;
-        height: 100vh;
 
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
+        @media(min-width: $break-point-md){
+
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
 
         @media(max-width: $break-point-md){
 
@@ -284,23 +392,39 @@
 
         }
 
-        @media(min-width: $break-point-md){
+        &::before {
 
-            &::before {
+            content: '';
 
-                content: '';
+            position: fixed;
 
-                position: fixed;
+            top: 0;
+            right: (100% / 3) * 2;
 
-                top: 0;
-                right: (100% / 3) * 2;
+            width: 50%;
+            height: 100vh;
 
-                width: 50%;
-                height: 100vh;
+            background-image: linear-gradient(135deg, #007adf 0%, #00ecbc 100%);
 
-                background-image: linear-gradient(135deg, #007adf 0%, #00ecbc 100%);
+            transform: skewX(3deg);
 
-                transform: skewX(3deg);
+            @media(max-width: $break-point-md){
+
+                position: absolute;
+
+                left: 0;
+                right: auto;
+
+                width: 100%;
+                height: 30vh;
+
+                transform: skewX(0deg);
+
+            }
+
+            @media print {
+
+                display: none;
 
             }
 
@@ -314,8 +438,20 @@
 
         width: 100%;
 
-        display: flex;
-        align-items: center;
+        @media(min-width: $break-point-md){
+
+            position: fixed;
+
+            top: 0;
+            left: 0;
+
+            width: (100% / 3);
+            height: 100vh;
+
+            display: flex;
+            align-items: center;
+
+        }
 
         &__picture {
 
@@ -325,8 +461,17 @@
 
             border-radius: 100%;
 
-            background: white url('http://www.gravatar.com/avatar/941e983886a2603e9585326a98e3dffa.jpg?s=300') no-repeat center;
-            background-size: cover;
+            box-shadow: 0 0 0 3px white, 0 0 100px rgba(black, .2);
+
+            object-fit: cover;
+
+            overflow: hidden;
+
+            img {
+
+                width: 100%;
+
+            }
 
             @media(min-width: $break-point-md){
 
@@ -337,24 +482,19 @@
 
                 flex: $size 0 0;
 
-                box-shadow: 0 0 0 3px white, 0 0 100px rgba(black, .2);
-
             }
 
             @media(max-width: $break-point-md){
 
                 width: 100%;
 
-                padding-bottom: 100%;
-
             }
 
             @media print {
 
                 width: 150px;
-                height: 150px;
 
-                padding-bottom: 0;
+                box-shadow: none;
 
             }
 
@@ -367,21 +507,7 @@
                 display: flex;
                 justify-content: center;
 
-                @media(max-width: $break-point-md){
-
-                    padding-left: $theme-padding * 2;
-
-                }
-
-                @media(max-width: $break-point-sm){
-
-                    padding: 0;
-
-                }
-
                 @media print {
-
-                    padding: 0;
 
                     display: block;
 
@@ -406,6 +532,10 @@
 
                 text-align: right;
 
+            }
+
+            @media print {
+
                 color: black;
 
             }
@@ -423,8 +553,6 @@
 
                 @include font-sizer(24);
 
-                color: #2196f3 !important;
-
             }
 
         }
@@ -433,7 +561,7 @@
 
             @extend %base;
 
-            @include font-sizer(15);
+            @include font-sizer(20);
             font-weight: 400;
 
         }
@@ -509,7 +637,7 @@
 
                     color: white;
 
-                    @media(max-width: $break-point-md){
+                    @media print {
 
                         color: black;
 
@@ -528,23 +656,13 @@
         float: left;
 
         width: 100%;
-        height: 100vh;
-
-        padding: $theme-padding * 4;
 
         @media(min-width: $break-point-md){
 
-            width: calc(100% + #{$theme-padding});
+            width: (100% / 3) * 2;
 
-            overflow: auto;
-
-        }
-
-        @media(max-width: $break-point-md){
-
-            padding: $theme-padding * 2;
-
-            height: auto;
+            padding: $theme-padding * 4;
+            margin-left: (100% / 3);
 
         }
 
