@@ -1,8 +1,8 @@
 ## Bio
 
-Meu nome é Dian Carlos, tenho 24 anos e moro em Vila Velha - ES no bairro Coqueiral de Itaparica. Sou um Full Stack Web Developer com mais de 8 anos de experiência profissional.
+Meu nome é Dian Carlos, tenho 24 anos e moro em Campinas - SP. Sou um Front-End Web Developer com mais de 8 anos de experiência profissional.
 
-Trabalho com desenvolvimento de sites, sistemas para web, lojas virtuais e gerenciadores de conteúdo (áreas administrativas), de pequeno à grande porte. Como Full Stack, tenho a capacidade de desenvolver tanto a parte visual que tem interação com o usuário (Front-End) quanto a parte não visível que faz tudo funcionar (Back-End).
+Trabalho com desenvolvimento de produtos baseados em web, como sistemas, lojas virtuais e gerenciadores de conteúdo (áreas administrativas), de pequeno à grande porte. Possuo conhecimento também em back-end, então entendo a maioria das coisas que acontecem nesse lado, como banco de dados, API's e etc, isso ajuda bastante na tomada de decisões.
 
 No meu trabalho procuro sempre usar as melhores tecnologias de desenvolvimento disponíveis, para criar produtos de qualidade e com alto desempenho. Além disso, prezo muito pela beleza dos produtos, tendo cuidado a um nível milimétrico. Gosto de criar coisas belas, porém objetivas, que enchem os olhos de quem vê. Tudo isso somado faz com que o usuário final tenha uma ótima experiência e que o produto obtenha um grande destaque entre outros.
 
@@ -44,15 +44,26 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 * XAMPP
 * Adobe Photoshop
 * Adobe Illustrator
+* Adobe XD
+* Azure Dev Ops
 
 <br>
 
 ## Experiência Profissional
 
+**2018 - Atual**  
+**e.Mix - Serviços Inteligentes em Comércio Exterior**
+[https://emix.com.br](https://emix.com.br)
+Campinas - SP
+Cargo: Desenvolvedor Front- End Sênior
+
+<br>
+
 **2012 - 2018**  
-**Arco Websites & E-commerce**  
+**Arco Websites & E-commerce**
+[http://arcoinformatica.com.br](http://arcoinformatica.com.br)
 Cachoeiro de Itapemirim - ES  
-Cargo: Desenvolvedor Sênior
+Cargo: Desenvolvedor Full Stack Sênior
 
 Aqui fui responsável pelo desenvolvimento de sites para várias grandes empresas, tanto individualmente como em equipe. Também obtive grande experiência em atendimento ao cliente, suporte técnico e design.
 
