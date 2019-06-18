@@ -52,14 +52,16 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 ## Experiência Profissional
 
 **2018 - Atual**  
-**e.Mix - Serviços Inteligentes em Comércio Exterior**  
+**e.Mix - Serviços Inteligentes em Comércio Exterior**
+[https://emix.com.br](https://emix.com.br)
 Campinas - SP
 Cargo: Desenvolvedor Front- End Sênior
 
 <br>
 
 **2012 - 2018**  
-**Arco Websites & E-commerce**  
+**Arco Websites & E-commerce**
+[http://arcoinformatica.com.br](http://arcoinformatica.com.br)
 Cachoeiro de Itapemirim - ES  
 Cargo: Desenvolvedor Full Stack Sênior
 
