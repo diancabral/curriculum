@@ -45,13 +45,13 @@
                     <div class="col-8 col-md-12">
 
                         <div :class="$style.profile__name">Dian Carlos</div>
-                        <div :class="$style.profile__job">Full Stack Web Developer</div>
+                        <div :class="$style.profile__job">Front-End Web Developer</div>
 
                         <ul :class="$style.profile__contacts">
 
                             <li>
 
-                                <div :class="$style.profile__city">Coqueiral de Itaparica<br />Vila Velha - ES</div>
+                                <div :class="$style.profile__city">Campinas - SP</div>
 
                             </li>
 
@@ -99,7 +99,7 @@
 
                 />
 
-                <div :class="$style.dev">Desenvolvido com <i class="material-icons" :class="$style.dev__icon">favorite</i> em Vila Velha - ES.</div>
+                <div :class="$style.dev">Desenvolvido com <i class="material-icons" :class="$style.dev__icon">favorite</i> em Vila Velha - ES e Campinas - SP.</div>
 
             </div>
 

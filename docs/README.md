@@ -2,7 +2,7 @@
 
 Meu nome é Dian Carlos, tenho 24 anos e moro em Campinas - SP. Sou um Front-End Web Developer com mais de 8 anos de experiência profissional.
 
-Trabalho com desenvolvimento de sites, sistemas para web, lojas virtuais e gerenciadores de conteúdo (áreas administrativas), de pequeno à grande porte. Possuo conhecimento também em back-end, então entendo a maioria das coisas que acontecem nesse lado, como banco de dados, api's e etc.
+Trabalho com desenvolvimento de produtos baseados em web, como sistemas, lojas virtuais e gerenciadores de conteúdo (áreas administrativas), de pequeno à grande porte. Possuo conhecimento também em back-end, então entendo a maioria das coisas que acontecem nesse lado, como banco de dados, API's e etc, isso ajuda bastante na tomada de decisões.
 
 No meu trabalho procuro sempre usar as melhores tecnologias de desenvolvimento disponíveis, para criar produtos de qualidade e com alto desempenho. Além disso, prezo muito pela beleza dos produtos, tendo cuidado a um nível milimétrico. Gosto de criar coisas belas, porém objetivas, que enchem os olhos de quem vê. Tudo isso somado faz com que o usuário final tenha uma ótima experiência e que o produto obtenha um grande destaque entre outros.
 
@@ -44,6 +44,8 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 * XAMPP
 * Adobe Photoshop
 * Adobe Illustrator
+* Adobe XD
+* Azure Dev Ops
 
 <br>
 

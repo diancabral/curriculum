@@ -19,6 +19,6 @@ module.exports = {
 
     },
 
-    baseUrl: process.env.NODE_ENV === 'production' ? '/curriculum/' : '/'
+    publicPath: process.env.NODE_ENV === 'production' ? '/curriculum/' : '/'
 
 };
