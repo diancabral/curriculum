@@ -1,6 +1,6 @@
 ## Bio
 
-Meu nome é Dian Carlos, tenho 25 anos e moro em Campinas - SP. Sou um Front-End Web Developer com mais de 8 anos de experiência profissional.
+Meu nome é Dian Carlos, tenho 24 anos e moro em Campinas - SP. Sou um Front-End Web Developer com mais de 8 anos de experiência profissional.
 
 Trabalho com desenvolvimento de produtos baseados em web, como sistemas, lojas virtuais e gerenciadores de conteúdo (áreas administrativas), de pequeno à grande porte. Possuo conhecimento também em back-end, então entendo a maioria das coisas que acontecem nesse lado, como banco de dados, API's e etc, isso ajuda bastante na tomada de decisões.
 
@@ -16,16 +16,17 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 
 * HTML5
 * CSS3
-* Sass
+* SASS
 * Less
-* Bootstrap 4 (Grid e Display Property)
+* Bootstrap 4
 * JavaScript (ES6)
+* Canvas
 * Vue.js (vuex, vue-resource, vue-router)
 * PHP7
 * Phalcon PHP
 * JSON Web Token (JWT)
-* NodeJS
 * MySQL
+* NodeJS
 * MongoDB
 * Express
 * Socket.io
@@ -33,9 +34,8 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 * Yarn
 * Grunt
 * webpack
-* BrowserSync
 * Modernizr
-* Composer PHP
+* Composer
 * Git (GitHub e BitBucket)
 * Amazon Web Services (S3, CloudFront e SNS)
 * Google Fonts
