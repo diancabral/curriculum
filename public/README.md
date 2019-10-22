@@ -16,16 +16,17 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 
 * HTML5
 * CSS3
-* Sass
+* SASS
 * Less
-* Bootstrap 4 (Grid e Display Property)
+* Bootstrap 4
 * JavaScript (ES6)
+* Canvas
 * Vue.js (vuex, vue-resource, vue-router)
 * PHP7
 * Phalcon PHP
 * JSON Web Token (JWT)
-* NodeJS
 * MySQL
+* NodeJS
 * MongoDB
 * Express
 * Socket.io
@@ -33,9 +34,8 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 * Yarn
 * Grunt
 * webpack
-* BrowserSync
 * Modernizr
-* Composer PHP
+* Composer
 * Git (GitHub e BitBucket)
 * Amazon Web Services (S3, CloudFront e SNS)
 * Google Fonts
