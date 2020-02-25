@@ -51,7 +51,13 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 
 ## Experiência Profissional
 
-**2018 - Atual**  
+**2020 - Atual**  
+**inGaia**
+[https://www.ingaia.com.br](https://www.ingaia.com.br)
+Campinas - SP
+Cargo: Desenvolvedor Front- End Sênior
+
+**2018 - 2020**  
 **e.Mix - Serviços Inteligentes em Comércio Exterior**
 [https://emix.com.br](https://emix.com.br)
 Campinas - SP
