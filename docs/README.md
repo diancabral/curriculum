@@ -57,6 +57,8 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 Campinas - SP
 Cargo: Desenvolvedor Front- End Sênior
 
+<br>
+
 **2018 - 2020**  
 **e.Mix - Serviços Inteligentes em Comércio Exterior**
 [https://emix.com.br](https://emix.com.br)
