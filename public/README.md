@@ -51,11 +51,25 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 
 ## Experiência Profissional
 
-**2018 - Atual**  
+**2020 - Atual**  
+**inGaia**
+[https://www.ingaia.com.br](https://www.ingaia.com.br)
+Campinas - SP
+Cargo: Desenvolvedor Front-End Sênior
+
+<br>
+
+**2018 - 2020**  
 **e.Mix - Serviços Inteligentes em Comércio Exterior**
 [https://emix.com.br](https://emix.com.br)
 Campinas - SP
-Cargo: Desenvolvedor Front- End Sênior
+Cargo: Desenvolvedor Front-End Sênior
+
+No período que estive na e.Mix liderei uma nova equipe de Front-End com o objetivo de desenvolver a base da nova suite de software da empresa, o e.Mix Talkture, onde o Front-End foi desenvolvido do zero e assim se tornou o padrão para alguns novos sistemas.
+
+Atuei também no desenvolvimento do novo sistema e.Mix Follownet KPI (https://emix.com.br/software/follownet-one/) que é praticamente um PowerPoint/Google Apresentações para exibir dados e gráficos referentes aos processos de Comex, sendo capaz de criar apresentações de PowerPoint e dashboards em tempo real totalmente customizadas pelo usuário.
+
+Realizei novas implementações em outros sistemas, como o e.Mix Analisador (https://emix.com.br/software/analisador/), onde implementei uma nova interface de mapeamento de documentos no formato de Excel.
 
 <br>
 
