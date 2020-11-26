@@ -52,18 +52,24 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 ## Experiência Profissional
 
 **2020 - Atual**  
-**inGaia**
-[https://www.ingaia.com.br](https://www.ingaia.com.br)
+**Kenlo**
+[https://www.linkedin.com/company/kenlo/](https://www.linkedin.com/company/kenlo/)
 Campinas - SP
-Cargo: Desenvolvedor Front-End Sênior
+Cargo: Sênior Front-end Developer | Digital Rent 
+
+**2020 - Atual**  
+**inGaia**
+[https://www.linkedin.com/company/ingaia/](https://www.linkedin.com/company/ingaia/)
+Campinas - SP
+Cargo: Sênior Front-end Developer
 
 <br>
 
 **2018 - 2020**  
 **e.Mix - Serviços Inteligentes em Comércio Exterior**
-[https://emix.com.br](https://emix.com.br)
+[https://www.linkedin.com/company/e-mix/](https://www.linkedin.com/company/e-mix/)
 Campinas - SP
-Cargo: Desenvolvedor Front-End Sênior
+Cargo: Sênior Front-end Developer
 
 No período que estive na e.Mix liderei uma nova equipe de Front-End com o objetivo de desenvolver a base da nova suite de software da empresa, o e.Mix Talkture, onde o Front-End foi desenvolvido do zero e assim se tornou o padrão para alguns novos sistemas.
 
@@ -77,7 +83,7 @@ Realizei novas implementações em outros sistemas, como o e.Mix Analisador (htt
 **Arco Websites & E-commerce**
 [http://arcoinformatica.com.br](http://arcoinformatica.com.br)
 Cachoeiro de Itapemirim - ES  
-Cargo: Desenvolvedor Full Stack Sênior
+Cargo: Sênior Fullstack Developer
 
 Aqui fui responsável pelo desenvolvimento de sites para várias grandes empresas, tanto individualmente como em equipe. Também obtive grande experiência em atendimento ao cliente, suporte técnico e design.
 
