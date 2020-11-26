@@ -57,6 +57,8 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 Campinas - SP
 Cargo: Sênior Front-end Developer | Digital Rent 
 
+<br>
+
 **2020 - Atual**  
 **inGaia**
 [https://www.linkedin.com/company/ingaia/](https://www.linkedin.com/company/ingaia/)
