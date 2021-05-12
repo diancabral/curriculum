@@ -1,51 +1,55 @@
 ## Bio
 
-Meu nome é Dian Carlos, tenho 25 anos e moro em Campinas - SP. Sou um Front-End Web Developer com mais de 10 anos de experiência profissional.
+Hey 😄  meu nome é Dian Carlos e sou um dev front-end com mais de 11 anos de experiência profissional.
 
-Trabalho com desenvolvimento de produtos baseados em web, como sistemas, lojas virtuais e gerenciadores de conteúdo (áreas administrativas), de pequeno à grande porte. Possuo conhecimento também em back-end, então entendo a maioria das coisas que acontecem nesse lado, como banco de dados, API's e etc, isso ajuda bastante na tomada de decisões.
+Trabalho com desenvolvimento de produtos baseados em web escaláveis e de alta performance. No meu trabalho procuro sempre usar as melhores tecnologias de desenvolvimento disponíveis, para criar produtos de qualidade e com alto desempenho. Além disso, prezo muito pela beleza dos produtos, aplicando conceitos de UX e tendo cuidado a um nível milimétrico. Gosto de criar coisas belas, porém objetivas, que enchem os olhos de quem vê. Tudo isso somado faz com que o usuário final tenha uma ótima experiência e que o produto obtenha um grande destaque entre os outros.
 
-No meu trabalho procuro sempre usar as melhores tecnologias de desenvolvimento disponíveis, para criar produtos de qualidade e com alto desempenho. Além disso, prezo muito pela beleza dos produtos, tendo cuidado a um nível milimétrico. Gosto de criar coisas belas, porém objetivas, que enchem os olhos de quem vê. Tudo isso somado faz com que o usuário final tenha uma ótima experiência e que o produto obtenha um grande destaque entre outros.
+Possuo conhecimento também em back-end, então entendo a maioria das coisas que acontecem nesse mundo e assim consigo tomar decisões de produto e opinar dos dois lados.
 
-Fico muito bem a vontade trabalhando em equipe e sempre estou me atualizando com novas técnicas, ferramentas e tecnologias que vão surgindo no mundo do desenvolvimento. Partilhar conhecimento com todos é uma coisa que faço com prazer.
+Adoro trabalhar em equipe e sempre estou me atualizando com tudo de novo que surge no mundo do desenvolvimento. Partilhar conhecimento com todos é uma coisa que faço todos os dias com prazer, está no meu sangue.
 
 <br>
 
 ## Skills
 
-Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços online e frameworks:
-
+* JavaScript
 * HTML5
 * CSS3
 * SASS
-* Less
-* Bootstrap 4
-* JavaScript (ES6)
-* Canvas
-* Vue.js (vuex, vue-resource, vue-router)
-* PHP7
+* LESS
+* Vue.js (2 e 3)
+* vuex
+* Nuxt
+* React
+* Redux
+* Marko.js
+* JEST
+* Testing Library
+* Cypress
+* GraphQL
+* Bootstrap
+* PHP
 * Phalcon PHP
+* Cordova
+* Canvas
 * JSON Web Token (JWT)
 * MySQL
-* NodeJS
 * MongoDB
+* NodeJS
 * Express
-* Socket.io
+* Koa
 * NPM
 * Yarn
 * Grunt
 * webpack
 * Modernizr
 * Composer
-* Git (GitHub e BitBucket)
-* Amazon Web Services (S3, CloudFront e SNS)
-* Google Fonts
-* Google Analytics
-* Atom
-* XAMPP
+* Git (GitHub, GitLab, Azure DevOps e BitBucket)
+* Azure DevOps
+* Jira
+* AWS (S3, CloudFront e SNS)
 * Adobe Photoshop
 * Adobe Illustrator
-* Adobe XD
-* Azure Dev Ops
 
 <br>
 
@@ -55,7 +59,9 @@ Atualmente, tenho experiência nas seguintes tecnologias, ferramentas, serviços
 **Kenlo**
 [https://www.linkedin.com/company/kenlo/](https://www.linkedin.com/company/kenlo/)
 Campinas - SP
-Cargo: Sênior Front-end Developer | Digital Rent 
+Cargo: Sênior Front-end Developer | Digital Rent
+
+<br>
 
 **2020 - Atual**  
 **inGaia**
@@ -73,7 +79,7 @@ Cargo: Sênior Front-end Developer
 
 No período que estive na e.Mix liderei uma nova equipe de Front-End com o objetivo de desenvolver a base da nova suite de software da empresa, o e.Mix Talkture, onde o Front-End foi desenvolvido do zero e assim se tornou o padrão para alguns novos sistemas.
 
-Atuei também no desenvolvimento do novo sistema e.Mix Follownet KPI (https://emix.com.br/software/follownet-one/) que é praticamente um PowerPoint/Google Apresentações para exibir dados e gráficos referentes aos processos de Comex, sendo capaz de criar apresentações de PowerPoint e dashboards em tempo real totalmente customizadas pelo usuário.
+Atuei também no desenvolvimento do novo sistema e.Mix Follownet KPI (https://emix.com.br/software/follownet-one/) que permitia aos clientes criar apresentações de Power Point e dashboards de BI em tempo real totalmente customizadas pelo usuário para exibir dados e gráficos referentes aos processos de Comex.
 
 Realizei novas implementações em outros sistemas, como o e.Mix Analisador (https://emix.com.br/software/analisador/), onde implementei uma nova interface de mapeamento de documentos no formato de Excel.
 
