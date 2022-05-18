@@ -55,7 +55,15 @@ Adoro trabalhar em equipe e sempre estou me atualizando com tudo de novo que sur
 
 ## Experiência Profissional
 
-**2020 - Atual**  
+**2022 - Atual**  
+**iFood**
+[https://www.linkedin.com/company/ifood-/](https://www.linkedin.com/company/ifood-/)
+Campinas - SP
+Cargo: Sênior Software Engineer | Front-End
+
+<br>
+
+**2020 - 2022**  
 **Kenlo**
 [https://www.linkedin.com/company/kenlo/](https://www.linkedin.com/company/kenlo/)
 Campinas - SP
@@ -63,7 +71,7 @@ Cargo: Sênior Front-end Developer | Digital Rent
 
 <br>
 
-**2020 - Atual**  
+**2020 - 2022**  
 **inGaia**
 [https://www.linkedin.com/company/ingaia/](https://www.linkedin.com/company/ingaia/)
 Campinas - SP
