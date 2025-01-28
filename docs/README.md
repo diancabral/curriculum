@@ -1,6 +1,6 @@
 ## Bio
 
-Hey 😄  meu nome é Dian Carlos e sou um dev front-end com mais de 11 anos de experiência profissional.
+Hey 😄 meu nome é Dian Carlos e sou um dev front-end com mais de 13 anos de experiência profissional.
 
 Trabalho com desenvolvimento de produtos baseados em web escaláveis e de alta performance. No meu trabalho procuro sempre usar as melhores tecnologias de desenvolvimento disponíveis, para criar produtos de qualidade e com alto desempenho. Além disso, prezo muito pela beleza dos produtos, aplicando conceitos de UX e tendo cuidado a um nível milimétrico. Gosto de criar coisas belas, porém objetivas, que enchem os olhos de quem vê. Tudo isso somado faz com que o usuário final tenha uma ótima experiência e que o produto obtenha um grande destaque entre os outros.
 
@@ -12,16 +12,19 @@ Adoro trabalhar em equipe e sempre estou me atualizando com tudo de novo que sur
 
 ## Skills
 
+* TypeScript
 * JavaScript
 * HTML5
 * CSS3
 * SASS
 * LESS
+* Tailwind
 * Vue.js (2 e 3)
 * vuex
 * Nuxt
 * React
 * Redux
+* Nx.js
 * Marko.js
 * JEST
 * Testing Library
@@ -31,7 +34,7 @@ Adoro trabalhar em equipe e sempre estou me atualizando com tudo de novo que sur
 * PHP
 * Phalcon PHP
 * Cordova
-* Canvas
+* Arduino
 * JSON Web Token (JWT)
 * MySQL
 * MongoDB
@@ -59,7 +62,7 @@ Adoro trabalhar em equipe e sempre estou me atualizando com tudo de novo que sur
 **iFood**
 [https://www.linkedin.com/company/ifood-/](https://www.linkedin.com/company/ifood-/)
 Campinas - SP
-Cargo: Sênior Software Engineer | Front-End
+Cargo: Software Engineer | Front-End
 
 <br>
 
@@ -122,5 +125,5 @@ Foi uma experiência rápida, porém aprendi muito sobre edição de imagens e f
 
 **Graduação em Análise e Desenvolvimento de Sistemas**  
 Faculdade Multivix - Cachoeiro de Itapemirim - ES  
-Início em 2015 (Atualmente estou com a matrícula trancada)  
+Início em 2015 (Atualmente estou com a matrícula trancada)
 3º Período completo
